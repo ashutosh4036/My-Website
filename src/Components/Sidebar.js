@@ -16,10 +16,13 @@ const SidebarStyled = styled.div`
     height: 100vh;
     background-color: var(--sidebar-dark-color);
     overflow: hidden;
-    transition: all .4s ease-in-out;
+    transition: all .4s cubic-bezier(0.075, 0.82, 0.165, 1);
     @media screen and (max-width:1200px){
         transform: translateX(-100%);
         z-index: 20;
+        width: 20%;
+        overflow: hidden;
+        font-size: medium;
     }
 `;
 

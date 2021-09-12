@@ -20,7 +20,7 @@ export default function Navigation() {
                     <NavLink to="/resume" activeClassName="active-class" exact>Resume</NavLink>
                 </li>
                 <li className="nav-items">
-                    <NavLink to="/portfolios" activeClassName="active-class" exact>Portfolios</NavLink>
+                    <NavLink to="/porjects" activeClassName="active-class" exact>Projects</NavLink>
                 </li>
                 <li className="nav-items">
                     <NavLink to="/contact" activeClassName="active-class" exact>Contact</NavLink>

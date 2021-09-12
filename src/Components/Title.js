@@ -3,7 +3,7 @@ import styled from 'styled-components';
  function Title({title,span}) {
     return (
         <TitleStyled>
-            <h2>{title} <span>{span}</span></h2>
+            <h2>{title} <span></span></h2>
         </TitleStyled>
     )
 }
@@ -16,17 +16,8 @@ const TitleStyled = styled.div`
       font-weight: 600;
       text-transform: uppercase;
       position: relative;
-      padding-bottom:.7rem;
-      &:before{
-          content:"";
-          position: absolute;
-          bottom: 0;
-          width: 7.4rem;
-          height:  .33rem;
-          background-color: var(--background-color-2);
-          border-radius: 15px;
-          left: 0;
-      }
+      
+      
       &:after{
           content:"";
           position: absolute;
@@ -37,14 +28,7 @@ const TitleStyled = styled.div`
           border-radius: 15px;
           left:0;
       }
-      span{
-          font-weight: 7 00;
-          color: rgba(23,29,43,44);
-          position: absolute;
-          left: 0;
-          top: 30%;
-          z-index: -1;
-      }
+      
 
   }
 `;

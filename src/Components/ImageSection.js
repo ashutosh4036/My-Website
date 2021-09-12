@@ -18,8 +18,7 @@ function ImageSection() {
                 <div className="about-info">
                     <div className="info-title">
                         <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality</p>
+                        <p>Age</p> 
                         <p>Language</p>
                         <p>Location</p>
                         
@@ -27,7 +26,6 @@ function ImageSection() {
                     <div className="info">
                         <p>: Ashutosh Tripathi</p>
                         <p>:20</p>
-                        <p>:Indian</p>
                         <p>:English,Hindi</p>
                         <p>: U.P,India</p>
                         </div>
@@ -41,6 +39,12 @@ function ImageSection() {
 const ImageStyled =styled.div`
    margin-top: 5rem;
    display : flex;
+   @media screen and (max-width:1000px){
+        flex-direction: column;
+        .left-content{
+            margin-bottom: 2rem;
+        }
+    }
    .left-content{
        width:100%;
        

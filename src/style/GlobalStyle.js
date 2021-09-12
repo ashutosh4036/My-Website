@@ -2,7 +2,7 @@ import {createGlobalStyle} from 'styled-components';
 
 
 const GlobalStyle = createGlobalStyle`
- /*:root{
+ :root{
     --primary-color: #007bff;
     --primary-color-light: #057FFF;
     --secondary-color: #6c757d;
@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
 
-} */
+} 
 
 .light-theme{
     --primary-color: #007bff;
@@ -133,9 +133,8 @@ h6{
 .light-dark-mode{
     position: fixed;
     right: 0;
-    top: 50%;
     background-color: var(--background-light-color-2);
-    width: 6.5rem;
+    width: 5.5rem;
     height: 2.5rem;
     z-index: 15;
     display: flex;
@@ -167,7 +166,7 @@ h6{
     }
   @media screen and (max-width:1200px){
     .ham-burger-menu{
-        display: block;
+        display: flex;
     }
   }
 

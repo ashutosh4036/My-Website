@@ -36,7 +36,7 @@ function ContactPage() {
                         </div>
                         <div className="form-field">
                             <label htmlFor="text-area">Enter your Message*</label>
-                            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+                            <textarea name="textarea" id="textarea" cols="3" rows="5"></textarea>
                         </div>
                         <div className="form-field f-button">
                             <PrimaryButton title={'Send Email'} />
@@ -44,9 +44,9 @@ function ContactPage() {
                     </form>
                 </div>
                 <div className="right-content">
-                    <ContactItem title={'Phone'} icon={phone} cont1={'+91-745294255'} cont2={'7565930654'} />
-                    <ContactItem title={'Email'} icon={email} cont1={'ashutosh4036@gmail.com'} cont2={'ashutosh.tripathi_cs19@gla.ac.in'} />
-                    <ContactItem title={'Address'} icon={location} cont1={'I-154 , Hindalco Colony ,Renukoot,U.P,India'}  />
+                    <ContactItem title={'Phone'} icon={phone} cont1={'+91-745294255'} />
+                    <ContactItem title={'Email'} icon={email} cont1={'ashutosh4036@gmail.com'}  />
+                    <ContactItem title={'Address'} icon={location} cont1={'Renukoot,U.P,India'}  />
                     
                 </div>
             </InnerLayout>
@@ -69,8 +69,9 @@ const ContactPageStyled = styled.section`
         .right-content{
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            @media screen and (max-width: 502px){
-                width: 70%;
+            @media screen and (max-width: 40px){
+                width: 0%;
+                top: 10%;
             }
         }
         .contact-title{
