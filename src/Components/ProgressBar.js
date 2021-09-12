@@ -4,8 +4,6 @@ function ProgressBar({title}) {
     return (
         <ProgressBarStyled>
             <h6>{title}</h6>
-           
-            
         </ProgressBarStyled>
     )
 }

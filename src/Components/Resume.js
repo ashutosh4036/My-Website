@@ -33,19 +33,19 @@ function Resume() {
                         year={'2019 - 2023'} 
                         title={'B.Tech in Computer Science and Engineering'}
                         subTitle={'GLA University,Mathura'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        
                     />
                     <ResumeItem 
                         year={'2019'} 
                         title={'Senior Secondary'}
                         subTitle={'ABPS School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                       
                     />
                     <ResumeItem 
                         year={'2017'} 
                         title={'High School'}
                         subTitle={'ABPS School'}
-                        text={'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa nihil impedit natus nostrum? Velit accusantium id quos, nihil vel quod.Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. '} 
+                        
                     />
                 </div>
             </InnerLayout>
