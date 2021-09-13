@@ -18,10 +18,10 @@ function HomePage() {
                     repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
                 </p>
                 <div className="icons">
-                    <a href="https://www.linkedin.com/in/ashutosh-tripathi-6bb53a201/" target="blank" className="icon i-linkedin">
+                    <a href="https://www.linkedin.com/in/ashutosh-tripathi-6bb53a201/" target="blank" rel="noopener noreferrer" className="icon i-linkedin">
                         <LinkedinIcon />
                     </a>
-                    <a href="https://github.com/ashutosh4036" target="_blank" className="icon i-github">
+                    <a href="https://github.com/ashutosh4036" target="_blank" rel="noopener noreferrer" className="icon i-github">
                         <GitHub/>
                     </a>
                 </div>
