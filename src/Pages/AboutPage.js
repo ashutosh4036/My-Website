@@ -5,7 +5,7 @@ import Title from '../Components/Title';
 import {MainLayout} from '../style/Layouts';
 import ServicesSection from '../Components/ServicesSection';
 import ReviewsSetion from '../Components/ReviewsSetion';
-import Particle from '../Components/Particles';
+
 
 function AboutPage() {
     return (
