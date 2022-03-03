@@ -22,6 +22,13 @@ function Resume() {
                       year ={2021}
                       title = {" Intern and Trainee"} 
                       subTitle={"Netcamp Solutions Private Ltd."}
+                      text ={"Design and developed an android app with multiple feature and added multiple features such as calling , quizes ,etc.Designed the application using Java and android studio."}
+                    />
+                    <ResumeItem
+                      year ={2021}
+                      title = {" Web Intern"} 
+                      subTitle={"Zummit InfoLabs Ltd."}
+                      text ={"Worked on some client projects.Design and developed website pages using Wordpress and added some extra features. Developed a website in a team for a company in Germany."}
                     />
                  
                 </div>

@@ -1,4 +1,4 @@
-import React from 'react'
+{/*import React from 'react'
 import styled from 'styled-components';
 import {InnerLayout} from '../style/Layouts';
 import Title from '../Components/Title';
@@ -36,3 +36,4 @@ const ReviewsStyled = styled.section`
 `;
 
 export default ReviewsSetion;
+*/}

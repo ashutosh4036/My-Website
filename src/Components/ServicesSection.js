@@ -11,25 +11,30 @@ function ServicesSection() {
     return (
         <InnerLayout>
             <ServicesSectionStyled>
-                <Title title={'Services'} span={'services'} />
+                <Title title={'Projects'} span={'projects'} />
                 <div className="services">
+                    <a href = "https://crypto4036.netlify.app/" className='services1'>
                     <ServiceCard 
                         image={design} 
-                        title={'Web Design'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'Cryptoverse'} 
+                        paragraph={'Developed and designed a website for latest cryptocurrencies details and daily news.  '}
+                        
                     />
-                    <div className="mid-card">
+                    </a>
+                    <a href = "https://ashutosh4036.netlify.app/" className="mid-card">
                         <ServiceCard 
                             image={intelligence} 
-                            title={'Front-End Development'} 
-                            paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                            title={'Portfolio'} 
+                            paragraph={'Created  my personal portfolio website  using  ReactJs , Styled Components and Material Ui. You can check the source code. '}
                         />
-                    </div>
+                    </a>
+                    < a href= "https://ashutosh4036.github.io/tesla-clone/#">
                     <ServiceCard 
                         image={gamedev} 
-                        title={'Android Development'} 
-                        paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem tenetur ratione quod.'}
+                        title={'Tesla clone'} 
+                        paragraph={'Designed the front-end page of the orignial Tesla Website using simple ReactJs and React-redux.You can visit the site .'}
                     />
+                    </a>
                 </div>
             </ServicesSectionStyled>
         </InnerLayout>

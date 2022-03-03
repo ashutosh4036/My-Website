@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from'../img/rr.jpg';
+import resume from'../img/a.jpg';
 import PrimaButton  from './PrimaButton';
 function ImageSection() {
     return (
@@ -19,15 +19,18 @@ function ImageSection() {
                     <div className="info-title">
                         <p>Full Name</p>
                         <p>Age</p> 
+                        <p>Nationality </p>
                         <p>Language</p>
                         <p>Location</p>
-                        
+                        <p>Service</p>
                     </div>
                     <div className="info">
                         <p>: Ashutosh Tripathi</p>
                         <p>:20</p>
+                        <p>: Indian</p>
                         <p>:English,Hindi</p>
                         <p>: U.P,India</p>
+                        <p> : Freelance</p>
                         </div>
                 </div>
                     <PrimaButton title={"Download CV"}/>
@@ -49,14 +52,13 @@ const ImageStyled =styled.div`
        width:100%;
        
        img{
-           width:90%;
-           height: 100%;
+           width:95%;
            object-fit: cover;
 
        }
    }
    .right-content{
-      
+      width: 100%;
        h4{
            font-size: 2rem;
            color: var(--white-color);

@@ -1,4 +1,4 @@
-import React from 'react'
+{/*import React from 'react'
 import styled from 'styled-components';
 
 function ReviewItem({text}) {
@@ -33,3 +33,4 @@ const RevivewItemStyled = styled.div`
 `;
 
 export default ReviewItem;
+*/}

@@ -13,9 +13,8 @@ function HomePage() {
             <div className="typography">
                 <h1>Hi, I'm <span>Ashutosh Tripathi</span></h1>
                 <p> 
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Atque nihil voluptates ea dolore vel 
-                    repellat? Quia tenetur non quam exercitationem. Lorem ipsum dolor sit amet.
+                "A fresher with experience", this line says exactly who I am. I am  a software developer who crafts beautiful web and apps.
+                 My perfect balance of technical & managerial skills stands me apart from the crowd.
                 </p>
                 <div className="icons">
                     <a href="https://www.linkedin.com/in/ashutosh-tripathi-6bb53a201/" target="blank" rel="noopener noreferrer" className="icon i-linkedin">
