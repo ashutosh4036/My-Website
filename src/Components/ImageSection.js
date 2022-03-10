@@ -33,7 +33,9 @@ function ImageSection() {
                         <p> : Freelance</p>
                         </div>
                 </div>
+                <a href = "https://drive.google.com/file/d/1ToXWS4aQ3SxWOXKXDYXImR4j0H1Jgqgw/view?usp=sharing">
                     <PrimaButton title={"Download CV"}/>
+                </a>
                 </div>
         </ImageStyled>
     )
@@ -46,6 +48,10 @@ const ImageStyled =styled.div`
         flex-direction: column;
         .left-content{
             margin-bottom: 2rem;
+        }
+        .right-content{
+            margin-bottom: 2rem;
+            margin-right : 2rem;
         }
     }
    .left-content{

@@ -134,7 +134,7 @@ h6{
     position: fixed;
     right: 0;
     background-color: var(--background-light-color-2);
-    width: 5.5rem;
+    width: 4.5rem;
     height: 2.5rem;
     z-index: 15;
     display: flex;
@@ -150,7 +150,7 @@ h6{
 
   //Nav Toggler
   .ham-burger-menu{
-      position: absolute;
+      position: fixed;
       right: 5%;
       top: 3%; 
       display: none;

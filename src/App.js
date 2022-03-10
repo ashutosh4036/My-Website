@@ -41,7 +41,7 @@ function App() {
         <div className="theme">
           <div className="light-dark-mode">
               <div className="left-content">
-                <Brightness4Icon />
+                
               </div>
               <div className="right-content">
                 <Switch
